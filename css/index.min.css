@@ -1,0 +1,159 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+li{
+    list-style: none;
+}
+
+html,
+body{
+    height: 100%;
+}
+body{
+    background-color:rgb(85, 104, 104) ;
+    position: fixed;
+}
+
+:root{
+    --blue-color:#1F4AA8;
+    --white-color:#FFFFFF;
+    --red-color:#fb4b4d;
+    --gray-color:rgb(113, 113, 113);
+}
+table{
+    border-collapse: collapse;
+}
+
+table,
+th{
+    border-radius: 10px;
+    padding: 10px;
+}
+.Image{
+  height: 150px;
+  padding: 5px;
+  margin-left: 300px;
+  position: relative;
+}
+.expedia{
+    display: flex;
+    padding: 20px;
+    margin-left: 300px;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+}
+.Menu{
+ display:flex;
+ padding:10px 20px;
+ margin:10px 10px 0 10px;
+ border-radius:10px;
+justify-content :center;
+position: absolute;
+top:0;
+left: 260px;
+right: 30px;
+}
+.Menu li{
+   padding:20px; 
+   text-align: center;
+   font-size: 25px;
+    color:var(--gray-color);
+}
+ 
+.text-1{
+    font-size: 4.5rem;
+    color: var(--white-color);
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 100px;
+    position: absolute;
+    top:160px;
+    left: 400px;
+    right: 200px;
+}
+.text-2{
+    font-size: medium;
+    text-align: center;
+    color: var(--white-color);
+    padding: 10px;
+    position: absolute;
+    top:500px;
+    left: 50px;
+    right:10px;
+
+}
+
+.booking-menu{
+    padding: 10px;
+    background-color:var(--white-color);
+    border-radius: 25px;
+    margin-left: 300px;
+    margin-top: 450px;
+    width: 1450px;
+}
+.menu-2 th{
+    color: var(--gray-color);
+    padding:  10px 100px 10px;
+    text-decoration: underline;
+    font-size: large;
+}
+
+.gender{
+    display: inline;
+    padding: 50px 10px 50px; 
+    font-size: large;
+}
+.words{
+    display: inline;
+    color:#1F4AA8;
+    padding: 50px;
+    font-size: large;
+}
+
+h2{
+    font-size: xx-large;
+    padding: 30px;
+    margin-left: 40px;
+    color:var(--white-color)
+}
+.places{
+display: flex;
+padding: 10px;
+margin-left :150px;
+}
+.img{
+    padding: 5px 20px 0 0;
+}
+.name{
+font-size: medium;
+}
+ .were{
+font-size: small;
+ }
+ .Btn{
+   border:none;
+   outline:none;
+   font-size: 25px;
+   border-radius:15px;
+   color:black;
+   padding:10px ;
+   margin: 5px;
+   background-color: var(--blue-color);
+    position: absolute;
+    top:10px;
+    right:4px;
+
+ }
+
+ .Btn:hover{
+    transform: scale(1.2);
+    background-color: var(--red-color);
+    color:var(--blue-color);
+ }
